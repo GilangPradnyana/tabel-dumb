@@ -30,3 +30,15 @@ table {
     margin: 70px auto;
     border: 1px solid;
 }
+
+th {
+    border-top: 3px solid darkorange;
+    border-bottom: 3px solid #161A30;
+    height: 50px;
+}
+th p {
+    line-height: 50px;
+    font-family: "Reddit Sans";
+    font-size: 20px;
+    font-weight: bold;
+}
