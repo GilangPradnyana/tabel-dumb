@@ -25,20 +25,42 @@ header h1 {
 
 /* Tabel */
 table {
-    width: 700px;
+    width: 900px;
     height: 500px;
     margin: 70px auto;
-    border: 1px solid;
+    border-collapse: collapse;
+
 }
 
 th {
     border-top: 3px solid darkorange;
     border-bottom: 3px solid #161A30;
-    height: 50px;
+    height: 60px;
 }
 th p {
-    line-height: 50px;
+    line-height: 60px;
     font-family: "Reddit Sans";
     font-size: 20px;
     font-weight: bold;
+}
+
+/* bagian bawah */
+td {
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 119px;
+}
+tr+.genap {
+    background-color: #efefef;
+    opacity: .70;
+}
+
+/* hover */
+
+tr:hover {
+    color: #EEF5FF;
+    background-color: #161A30;
+    opacity: .80;
 }
